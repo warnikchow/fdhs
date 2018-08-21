@@ -8,7 +8,7 @@ Keras (TensorFlow), Numpy, NLTK, RegEx, itertools
 Visit: https://nlp.stanford.edu/projects/glove/
 Download: Twitter (2B tweets, 27B tokens, 1.2M vocab, uncased, 25d, 50d, 100d, & 200d vectors, 1.42 GB download): glove.twitter.27B.zip
 Download link: http://nlp.stanford.edu/data/glove.twitter.27B.zip
-* Download this and locate to the same folder with 'hashseg.py'.
+* Download this and locate to the same folder with 'hashseg.py', in file name 'glove100.txt'.
 * This can be replaced with whatever dictionary the user employs.
 
 ## System Description
@@ -19,8 +19,7 @@ Download link: http://nlp.stanford.edu/data/glove.twitter.27B.zip
 * Utilize the segmentation toolkit by following command:
 <pre><code> from hashseg import segment as seg </code></pre>
 * Sample usage:
-<pre><code> seg('#what_do_you_want') </code></pre>
-<pre><code> >> 'what do you want' </code></pre>
+<pre><code> seg('#what_do_you_want') \n >> 'what do you want' </code></pre>
 <pre><code> seg('#WhatDoYouWant') </code></pre>
 <pre><code> >> 'What Do You Want' </code></pre>
 <pre><code> seg('#whatdoyouwant') </code></pre>
