@@ -12,7 +12,7 @@ Download link: http://nlp.stanford.edu/data/glove.twitter.27B.zip
 * This can be replaced with whatever dictionary the user employs.
 
 ## System Description
-* The system was trained with 'train.py' (line by line!)
+* The system was trained with 'train.py' (line by line; will be disclosed later!)
 * Easy start: start your work in the folder
 <pre><code> git clone https://github.com/warnikchow/fdhs </code></pre>
 * Locate dictionary inside the folder
