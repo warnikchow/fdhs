@@ -20,8 +20,8 @@ Download link: http://nlp.stanford.edu/data/glove.twitter.27B.zip
 <pre><code> from hashseg import segment as seg </code></pre>
 * Sample usage:
 <pre><code> seg('#what_do_you_want') 
->> 'what do you want' </code></pre>
-<pre><code> seg('#WhatDoYouWant') </code></pre>
-<pre><code> >> 'What Do You Want' </code></pre>
-<pre><code> seg('#whatdoyouwant') </code></pre>
-<pre><code> >> 'what do you want' </code></pre>
+ >> 'what do you want' </code></pre>
+<pre><code> seg('#WhatDoYouWant')  
+ >> 'What Do You Want' </code></pre>
+<pre><code> seg('#whatdoyouwant') 
+ >> 'what do you want' </code></pre>
