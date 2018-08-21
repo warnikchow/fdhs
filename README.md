@@ -13,13 +13,14 @@ Download link: http://nlp.stanford.edu/data/glove.twitter.27B.zip
 
 ## System Description
 * The system was trained with 'train.py' (line by line!)
-* Easy start: locate this folder to your workplace
+* Easy start: start your work in the folder
 <pre><code> git clone https://github.com/warnikchow/fdhs </code></pre>
 * Locate dictionary inside the folder
 * Utilize the segmentation toolkit by following command:
 <pre><code> from hashseg import segment as seg </code></pre>
 * Sample usage:
-<pre><code> seg('#what_do_you_want') \n >> 'what do you want' </code></pre>
+<pre><code> seg('#what_do_you_want') 
+>> 'what do you want' </code></pre>
 <pre><code> seg('#WhatDoYouWant') </code></pre>
 <pre><code> >> 'What Do You Want' </code></pre>
 <pre><code> seg('#whatdoyouwant') </code></pre>
