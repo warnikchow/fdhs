@@ -8,7 +8,7 @@ Keras (TensorFlow), Numpy, NLTK, RegEx, itertools
 Visit: https://nlp.stanford.edu/projects/glove/
 Download: Twitter (2B tweets, 27B tokens, 1.2M vocab, uncased, 25d, 50d, 100d, & 200d vectors, 1.42 GB download): glove.twitter.27B.zip
 Download link: http://nlp.stanford.edu/data/glove.twitter.27B.zip
-* Download this and locate to the same folder with 'hashseg.py', in file name 'glove100.txt'.
+* Download this and locate 100dim dictionary to the same folder with 'hashseg.py', in file name 'glove100.txt'.
 * This can be replaced with whatever dictionary the user employs.
 
 ## System Description
