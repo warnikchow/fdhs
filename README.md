@@ -17,7 +17,7 @@ Download link: http://nlp.stanford.edu/data/glove.twitter.27B.zip
 <pre><code> git clone https://github.com/warnikchow/fdhs </code></pre>
 * Locate dictionary inside the folder
 * Utilize the segmentation toolkit by following command:
-<pre><code> from hashseg import segment as seg </code></pre>
+<pre><code> from fdhs.hashseg import segment as seg </code></pre>
 * Sample usage:
 <pre><code> seg('#what_do_you_want') 
  >> 'what do you want' </code></pre>
