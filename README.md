@@ -2,7 +2,7 @@
 Fully Data-driven Contextual Hashtag Segmentation
 
 ## Requirements
-Keras (TensorFlow), Numpy, NLTK, RegEx, itertools
+Keras (TensorFlow), Numpy
 
 ## Dictionary
 Visit: https://nlp.stanford.edu/projects/glove/
