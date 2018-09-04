@@ -137,26 +137,3 @@ def hash_space_eval(tag):
   sent_raw, z, count_char = hash_pred(tag_re,modelcws,glove_twit,idchar,100,100)
   print(sent_raw)
   return digitalize(z), count_char
-
-test = read_data('test.txt')
-'''
-from ekphrasis.classes.segmenter import Segmenter
-seg_tw = Segmenter(corpus="twitter")
-
-from sklearn import metrics
-
-def eval():
- prediction, count = hash_space_eval(test[0][0][1:])
- answer = featurize_space(test[0][1],100)[:count]
- datastory = featurize_space(seg_tw.segment(test[0][0][1:]),100)[:count]
- for i in range(len(test)):
-  if i>0:
-   z,count = hash_space_eval(test[i][0][1:])
-   prediction = np.concatenate((prediction,z))
-   x = featurize_space(test[i][1],100)[:count]
-   y = featurize_space(seg_tw.segment(test[i][0][1:]),100)[:count]
-   answer = np.concatenate((answer,x))
-   datastory = np.concatenate((datastory,y))
- print(metrics.precision_recall_fscore_support(answer,prediction))
- print(metrics.precision_recall_fscore_support(answer,datastory))
-'''
